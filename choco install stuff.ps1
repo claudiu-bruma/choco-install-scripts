@@ -1,6 +1,6 @@
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
-
+choco install slack -y
 
 choco install adobereader -y
 choco install 7zip -y
@@ -31,7 +31,8 @@ choco install git-fork -y
 choco install gitkraken -y
 choco install sourcetree -y 
 choco install github-desktop  -y
- 
+
+
 choco install dotnet-6.0-sdk -y
 choco install dotnet-5.0-sdk -y
 choco install dotnetcore-3.1-sdk -y
@@ -45,6 +46,14 @@ choco install vscode -y
 choco install vscode-code-runner -y
 choco install vscode-prettier -y
 choco install vscode-powershell -y
+choco install vscode-beautify -y
+choco install chocolatey-vscode -y
+choco install vscode-intellicode -y
+
+choco install beyondcompare -y
+
+
+choco install sql-server-management-studio -y
 
 choco install docker-desktop -y
 
